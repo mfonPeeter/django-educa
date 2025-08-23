@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "daphne",
     "courses.apps.CoursesConfig",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -165,3 +166,5 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ]
 }
+
+ASGI_APPLICATION = "educa.asgi.application"
