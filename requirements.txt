@@ -48,3 +48,6 @@ txaio==25.6.1
 typing_extensions==4.14.1
 urllib3==2.5.0
 zope.interface==7.2
+psycopg==3.2.9
+uwsgi==2.0.30
+python-decouple==3.8
